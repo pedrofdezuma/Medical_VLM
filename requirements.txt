@@ -1,0 +1,20 @@
+# PyTorch y visión
+torch==2.6.0
+torchvision==0.21.0
+
+# Librerías para Vision-Language Models (VLM)
+transformers==4.57.6
+peft==0.18.0
+trl==0.25.1
+datasets==4.4.1
+
+# Análisis de datos y visualización
+numpy==1.26.4
+pandas==2.2.3
+matplotlib==3.9.2
+scikit-learn==1.7.2
+
+# Utilidades adicionales usadas en el proyecto
+efficientnet_pytorch==0.7.1
+segmentation-models-pytorch==0.3.4
+pytorch-lightning==2.4.0

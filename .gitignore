@@ -1,0 +1,43 @@
+# Datos, Modelos y Checkpoints (Ignorar porque son pesados)
+data/
+checkpoints/
+model_offload/
+**/resultados_entrenamiento/MedTrinity*/
+
+# Resultados, Métricas y Figuras
+figures/
+reports/
+inference_results/
+control/
+e/
+ep/
+medtrinityMS/
+ms/
+*.csv
+*.png
+*.eps
+*.jpg
+*.jpeg
+
+# Archivos de Jupyter Notebook (Si no se quieren rastrear)
+*.ipynb
+
+# Python y compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs y SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs y Archivos HPC (Picasso)
+*.out
+*.err
+*.log
+slurm-*.out
+
+# Sub-repositorio Git (evitar conflicto)
+vlm/.git/
