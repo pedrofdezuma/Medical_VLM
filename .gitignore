@@ -1,5 +1,6 @@
 # Datos, Modelos y Checkpoints (Ignorar porque son pesados)
 data/
+!**/data/shard_lists/
 checkpoints/
 model_offload/
 **/resultados_entrenamiento/MedTrinity*/
@@ -18,9 +19,6 @@ ms/
 *.eps
 *.jpg
 *.jpeg
-
-# Archivos de Jupyter Notebook (Si no se quieren rastrear)
-*.ipynb
 
 # Python y compilados
 __pycache__/
